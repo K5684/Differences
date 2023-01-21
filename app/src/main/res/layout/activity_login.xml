@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vyw.differences.Login">
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/edi_back" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="173dp"
+        android:layout_height="69dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <ImageView
+        android:id="@+id/showhide"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/editTextLoginPassword"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <EditText
+        android:id="@+id/editTextLoginEmailAddress"
+        android:layout_width="329dp"
+        android:layout_height="70dp"
+        android:background="@drawable/background_round"
+        android:drawableLeft="@drawable/ic_baseline_email_"
+        android:ems="10"
+        android:hint="Email"
+        android:drawablePadding="5dp"
+        android:padding="5dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#090909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <EditText
+        android:id="@+id/editTextLoginPassword"
+        android:layout_width="329dp"
+        android:layout_height="70dp"
+        android:background="@drawable/background_round"
+        android:drawableLeft="@drawable/ic_baseline_password_"
+        android:ems="10"
+        android:drawablePadding="5dp"
+        android:padding="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="117dp"
+        android:layout_height="52dp"
+        android:text="Login"
+        android:textSize="18dp"
+        android:backgroundTint="#8C10A1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <TextView
+        android:id="@+id/textViewforgotpassword"
+        android:layout_width="140dp"
+        android:layout_height="33dp"
+        android:text="Forgot password ?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+
+    <TextView
+        android:id="@+id/textViewLoginSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dont have an account? Sign Up"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

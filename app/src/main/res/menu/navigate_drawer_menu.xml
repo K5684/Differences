@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nagivation_view">
+
+    <item
+        android:id="@+id/nav_UserProfile"
+        android:title="UserProfile"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        />
+
+
+    <item android:id="@+id/nav_AboutUs"
+        android:icon="@drawable/ic_about_us"
+        android:title="About Us"/>
+
+    <item android:id="@+id/nav_ContactUs"
+        android:icon="@drawable/ic_contactus"
+        android:title="Contact Us"/>
+
+
+    <item android:id="@+id/nav_Logout"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="Logout"/>
+
+</menu>

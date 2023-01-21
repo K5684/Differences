@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "316567557438",
+    "project_id": "differences-90c16",
+    "storage_bucket": "differences-90c16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316567557438:android:3409c1281504debdfd886f",
+        "android_client_info": {
+          "package_name": "com.vyw.tflite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316567557438-ovhkvpgm77s0od7gp8sb6p3e2qg3lk6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFrHfy0Bx5Xj6x-vtNubjgMasKrk5ZnsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316567557438-ovhkvpgm77s0od7gp8sb6p3e2qg3lk6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
